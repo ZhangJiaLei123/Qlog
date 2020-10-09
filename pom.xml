@@ -6,7 +6,7 @@
 
     <groupId>com.blxt.qJava</groupId>
     <artifactId>Qlog</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -35,8 +35,8 @@
             <version>1.7.30</version>
         </dependency>
         <dependency>
-            <groupId>com.blxt.qJava</groupId>
-            <artifactId>QConverter</artifactId>
+            <groupId>com.blxt.qjava</groupId>
+            <artifactId>qconverter</artifactId>
             <version>1.1</version>
         </dependency>
     </dependencies>
@@ -74,5 +74,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>zjlnexus</id>
+            <name>zjlnexus</name>
+            <url>http://maven.zhangjialei.cn:8083/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
